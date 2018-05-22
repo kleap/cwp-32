@@ -15,6 +15,10 @@ app.get('/hash', (req, res) => {
 	});
 });
 
+app.get('/a', (req, res) => {
+	res.end('Hello World')
+});
+
 app.listen(port, function () {
 	console.log(`Server running on ${port}`);
 });
